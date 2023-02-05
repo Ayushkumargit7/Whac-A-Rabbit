@@ -1,0 +1,46 @@
+body{
+    background-image: url(backimg.png);
+    background-size: cover;
+}
+.heading{
+    font-family: cursive;
+    text-align: center;
+    margin-top: 5px;
+}
+h2{
+    padding-left: 7px;
+}
+
+.grid {
+	
+    display: flex;
+    flex-wrap: wrap;
+    width: 606px;
+    height: 600px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50% , -50%); 
+    
+    
+}
+
+.square {
+	height:200px;
+	width: 200px;
+	border: solid black 1px;
+    background-image: url('Frame.png');
+    background-size: cover;
+    border-radius: 7px;
+}
+
+.mole {
+	background-image: url("rabbit.png");
+	background-size: cover;
+}
+
+html {
+    cursor: url('hammertransparent.png'), auto;
+             
+  }
